@@ -91,15 +91,17 @@ Shower ['ʃəuə] noun. A person or thing that shows.
 <figcaption>Marcus Tullius Cicero</figcaption>
 </figure>
 
-## Code Samples
+## Install RStudio
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <mark><head></mark> <mark class="comment"><!--Comment--></mark>
-        <title>Shower</title>
-        <meta charset="<mark class="important">UTF-8</mark>">
-        <link rel="stylesheet" href="screen.css">
-    <mark></head></mark>
+    $ wget https://s3.amazonaws.com/rstudio-dailybuilds/rstudio-1.1.34-amd64.deb
+    $ sudo dpkg -i rstudio-1.0.124-amd64.deb
+    $ wget http://ftp.ca.debian.org/debian/pool/main/g/gstreamer0.10/libgstreamer0.10-0_0.10.36-1.5_amd64.deb
+    $ wget http://ftp.ca.debian.org/debian/pool/main/g/gst-plugins-base0.10/libgstreamer-plugins-base0.10-0_0.10.36-2_amd64.deb
+    $ sudo dpkg -i libgstreamer0.10-0_0.10.36-1.5_amd64.deb
+    $ sudo dpkg -i libgstreamer-plugins-base0.10-0_0.10.36-2_amd64.deb
+    $ sudo apt-mark hold libgstreamer-plugins-base0.10-0
+    $ sudo apt-mark hold libgstreamer0.10
+    $ sudo gdebi rstudio-1.1.34-amd64.deb
 
 ## Even Tables
 
