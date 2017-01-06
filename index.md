@@ -44,9 +44,14 @@ style: |
 
 Here is what I do:
 
+    $ git clone git@github.com:jasontvu/test3.git
+    or git clone https://github.com/jasontvu/test3.git
+    $ git checkout --orphan gh-pages
+    $ sudo nano index.html
     $ git add .
     $ git commit -m "version #"
-    $ git push -u origin master
+    $ git push -u origin gh-pages
+    or git push -u origin master
 
 That's all!
 
@@ -60,7 +65,12 @@ Shower ['ʃəuə] noun. A person or thing that shows.
     $ program1 input.txt | tee intermediate.txt | grep > results.txt
     $ program1 input.txt & //put in background
     $ jobs  //find out which jobs run in the background
-    $ fg    // bring most recent job to foreground
+    $ fg %<num>   // bring job <num> to foreground
+    $ echo $?  //show exit status of a completed job
+    $ program1 input.txt > intermediate.txt || echo "an error occured!"
+    $ echo "there are $(grep -c '^>' input.fasta) entries in the file"
+    $ mkdir results-$(date + $F)
+    $ nohup program1 > output.txt &  //don't hangup if terminal closed
 
 ## All Kind of Lists
 
