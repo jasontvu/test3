@@ -106,7 +106,7 @@ It’s good to have information organized.
 
 ## Inner Navigation
 
-1. Lets you reveal list items Jason
+1. …Lets you reveal list items Jason
 2. …To keep some key points
 3. …In secret from audience
 4. …But it will work only once
