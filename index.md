@@ -113,6 +113,14 @@ It’s good to have information organized.
 5. …Nobody wants to see the same joke twice
 6. …The end
 
+## How about your next move?
+
+1. Do your part
+2. …To keep the momentum going
+3. …Spread the words
+4. …So more people can participate
+5. …Thank you!
+
 
 ## ![](http://shwr.me/pictures/logo.svg) [See more on GitHub](https://github.com/shower/shower/)
 {:.shout #SeeMore}
