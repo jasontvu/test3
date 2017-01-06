@@ -44,8 +44,9 @@ style: |
 
 Here is what I do:
 
-    $ find seqs/ -name "*.fastq"
-    $ sed 's/http/\nhttp/g' fastq | grep http >out.1
+    $ git add .
+    $ git commit -m "version #"
+    $ git push -u origin master
 
 That's all!
 
@@ -53,9 +54,13 @@ That's all!
 Shower ['ʃəuə] noun. A person or thing that shows.
 
 
-## Plain Text on Your Slides
+## Key commands
 
-Lorem ipsum dolor sit amet, consectetur [adipisicing](#all-kind-of-lists) elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, *quis nostrud* exercitation ullamco laboris **nisi ut aliquip** ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in `<culpa>` qui officia deserunt mollit anim id est laborum.
+    $ pandoc --from markdown --to html notebook.md > output.html
+    $ program1 input.txt | tee intermediate.txt | grep > results.txt
+    $ program1 input.txt & //put in background
+    $ jobs  //find out which jobs run in the background
+    $ fg    // bring most recent job to foreground
 
 ## All Kind of Lists
 
